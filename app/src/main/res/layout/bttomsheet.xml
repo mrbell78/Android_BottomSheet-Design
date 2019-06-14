@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Bottomsheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="?android:attr/actionBarSize"
+    >
+    
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="56dp"
+           android:textSize="16sp"
+           android:textColor="@android:color/white"
+           android:text="Open In"
+           android:gravity="center_vertical"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textAlignment="center"
+           android:layout_marginLeft="5dp"
+           android:id="@+id/arrowcontrol"
+           />
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:focusable="true"
+        android:clickable="true"
+        android:id="@+id/keeplayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/keepimgview"
+            android:src="@drawable/keep"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:text="Keep"
+            android:layout_marginLeft="32dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:focusable="true"
+        android:clickable="true"
+        android:id="@+id/maillayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/mailimg"
+            android:src="@drawable/email"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:text="Email"
+            android:layout_marginLeft="32dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:focusable="true"
+        android:clickable="true"
+        android:id="@+id/hangoutlayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/hangout"
+            android:src="@drawable/hangouts"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:text="Hangs out"
+            android:layout_marginLeft="32dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:focusable="true"
+        android:clickable="true"
+        android:id="@+id/googleplulayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/googleplus"
+            android:src="@drawable/google"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:text="Google plus"
+            android:layout_marginLeft="32dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:focusable="true"
+        android:clickable="true"
+        android:id="@+id/messengerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/messenger"
+            android:src="@drawable/messenger"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:text="messenger"
+            android:layout_marginLeft="32dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
